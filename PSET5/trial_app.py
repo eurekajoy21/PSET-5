@@ -5,6 +5,6 @@ from PIL import Image
 button = st.button("Click me!")
 if button:
     st.header("BOO!")
-    image = Image.open('images/cat.png')
+    image = Image.open('PSET5/images/cat.png')
     st.image(image)
     
